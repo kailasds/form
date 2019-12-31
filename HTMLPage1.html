@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+
+<html>
+  <head><title>Registration Form</title></head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+<body>
+<header>
+<div class="title">
+<h1>DHISHNA EVENTS</h1>
+</div>
+<br><br><br><br><br><br><br><br>
+
+<form  id="form">
+    <div>
+    <label>Name</label>
+    <input type="text" name="" id="name">
+    </div>
+<br>
+    <div>
+    <label>Caption</label>
+    <input type="text" name="" id="caption">
+    </div>
+<br>
+    <div>
+    <label>Description</label>
+    <textarea name="message" id="description"></textarea>
+    </div>
+<br>
+    <div>
+    <label>Is Registration Open</label>
+    <select name="">
+    <option value="Open">Open</option>
+    <option value="Closed">Closed</option>
+    </select>
+    </div>
+<br>
+<h2>Coordinator:</h2>
+    <div>
+    <label>CrName</label>
+    <input type="text" name="" id="crname">
+    </div>
+
+<br>
+    <div>
+    <label>Phone</label>
+    <input type="phone" name="" id="phone">
+    </div>
+
+<br>
+    <div>
+    <label>Image</label>
+    <form name="uploaded">
+    <input type="file" accept="image/*">
+    </form>
+
+<br>
+<br>
+<br>
+<button type="submit">Submit</button>
+
+
+</form>
+
+</header>
+
+
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+
+
+<script src="main.js"></script>
+</body>
+</html>
